@@ -99,7 +99,7 @@ async function runSimulation() {
   else if (type === 'image') endpoint = '/analyze/image';
 
   try {
-    const res = await fetch(`http://localhost:8000${endpoint}`, {
+    const res = await fetch(`https://deepfake-analyzer-finall.onrender.com${endpoint}`, {
       method: 'POST',
       body: formData
     });
