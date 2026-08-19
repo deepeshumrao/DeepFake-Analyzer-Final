@@ -1,0 +1,23 @@
+# Virtual environment
+venv312/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temp uploaded files (generated at runtime)
+data/temp/*
+!data/temp/.gitkeep
+
+# Streamlit
+.streamlit/
+
+# OS / editor junk
+.DS_Store
+.vscode/
+*.log
+
+# Env vars
+.env

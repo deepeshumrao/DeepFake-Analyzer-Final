@@ -1,0 +1,30 @@
+﻿# Node
+node_modules/
+dist/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Temp video/audio/images
+temp_video.mp4
+temp_audio.wav
+temp_image.jpg
+api_temp_video.mp4
+api_temp_audio.wav
+api_temp_image.jpg

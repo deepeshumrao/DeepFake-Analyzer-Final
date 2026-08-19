@@ -1,0 +1,9 @@
+streamlit
+opencv-python==4.10.0.84
+transformers
+torch
+moviepy
+pillow
+fastapi
+uvicorn[standard]
+python-multipart
